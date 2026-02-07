@@ -1,5 +1,4 @@
 
-
 {
   "name": "BWM-XMD",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
@@ -26,8 +25,8 @@
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254748387615",
-      "required": true
+      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
+      "required": false
     },
     "DATABASE_URL": {
       "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
@@ -60,7 +59,12 @@
     },
     "AUTHOR": {
       "description": "Bot author name",
-      "value": "Ibrahimadams",
+      "value": "Ibrahim Adams",
+      "required": false
+    },
+    "DEVICE_MODE": {
+      "description": "Device mode: iPhone (plain text) or Android (full features with buttons)",
+      "value": "Android",
       "required": false
     },
     "ANTI_CALL": {
@@ -105,12 +109,12 @@
     },
     "AUTO_BIO": {
       "description": "Auto-bio feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "AUTO_BIO_MSG": {
       "description": "Auto-bio message text",
-      "value": "BWM-XMD Always active!",
+      "value": "🐬",
       "required": false
     },
     "AUTO_STATUS_VIEW": {
@@ -171,26 +175,6 @@
     "PRESENCE_GROUP": {
       "description": "Presence in group chats: off, online, typing, or recording",
       "value": "off",
-      "required": false
-    },
-    "WELCOME_GOODBYE": {
-      "description": "Enable welcome/goodbye messages: on or off",
-      "value": "on",
-      "required": false
-    },
-    "WELCOME_MSG": {
-      "description": "Welcome message for new group members (use @user, {group}, {count}, {time}, {desc})",
-      "value": "Welcome to the group!",
-      "required": false
-    },
-    "GOODBYE_MSG": {
-      "description": "Goodbye message for leaving members (use @user, {time}, {count})",
-      "value": "Goodbye! Take care!",
-      "required": false
-    },
-    "SHOW_PROMOTIONS": {
-      "description": "Show promotion/demotion messages: on or off",
-      "value": "on",
       "required": false
     },
     "BOT_URL": {
