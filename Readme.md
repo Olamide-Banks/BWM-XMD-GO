@@ -30,7 +30,6 @@ Before deployment, configure your bot:
 - **Option A:** Edit `config.env` file
 - **Option B:** Use environment variables on your hosting platform
 
-
 ### **Step 3: Choose Hosting Platform**
 Deploy the bot on your preferred platform.
 
@@ -47,6 +46,24 @@ Deploy the bot on your preferred platform.
   <a href="https://railway.app?referralCode=AqkNn4" target="_blank">
     <img src="https://img.shields.io/badge/🚀_RAILWAY-000000?style=for-the-badge&color=purple" width="200" height="45"/>
   </a>
+</p>
+
+<!-- 🎥 VIDEO TUTORIAL - Added as requested -->
+<p align="center">
+  <strong>🎬 Watch the Full Deployment Tutorial</strong><br>
+  <i>How to deploy BWM XMD on its own hosting (No Deployer Needed!)</i>
+</p>
+
+<p align="center">
+  <!-- Embedded YouTube Iframe - Width 200, Height 40 -->
+  <iframe width="200" height="40" 
+          src="https://www.youtube.com/embed/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+  </iframe>
+  <br>
+  <sub>⚠️ Note: Due to GitHub Markdown restrictions, interactive iframes may not be visible on all previews. The code is correct for direct HTML deployment.</sub>
 </p>
 
 ### **Step 4: Start Using**
