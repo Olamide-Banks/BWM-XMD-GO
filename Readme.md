@@ -48,22 +48,26 @@ Deploy the bot on your preferred platform.
   </a>
 </p>
 
-<!-- 🎥 VIDEO TUTORIAL - Added as requested -->
+<br>
+
+<!-- 🎥 VIDEO TUTORIAL - GitHub README Compatible -->
 <p align="center">
-  <strong>🎬 Watch the Full Deployment Tutorial</strong><br>
-  <i>How to deploy BWM XMD on its own hosting (No Deployer Needed!)</i>
+  <strong>🎬 Watch Full Deployment Tutorial (2026)</strong><br>
+  <em>How to deploy BWM XMD on its own hosting - No Deployer Needed!</em>
 </p>
 
 <p align="center">
-  <!-- Embedded YouTube Iframe - Width 200, Height 40 -->
-  <iframe width="200" height="40" 
-          src="https://www.youtube.com/embed/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-  </iframe>
+  <a href="https://youtu.be/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" target="_blank">
+    <img src="https://img.shields.io/badge/📺_WATCH_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" width="300" height="50"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" target="_blank">
+    <img src="https://img.youtube.com/vi/4r5OewBgLIs/0.jpg" width="400" height="225" alt="BWM XMD Deployment Tutorial">
+  </a>
   <br>
-  <sub>⚠️ Note: Due to GitHub Markdown restrictions, interactive iframes may not be visible on all previews. The code is correct for direct HTML deployment.</sub>
+  <sub>⚠️ <strong>Click the image or button above to watch on YouTube</strong> (GitHub does not support embedded video players)</sub>
 </p>
 
 ### **Step 4: Start Using**
