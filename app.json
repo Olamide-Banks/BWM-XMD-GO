@@ -25,8 +25,8 @@
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254712345678",
-      "required": true
+      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
+      "required": false
     },
     "DATABASE_URL": {
       "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
@@ -65,7 +65,7 @@
     "DEVICE_MODE": {
       "description": "Device mode: iPhone (plain text) or Android (full features with buttons)",
       "value": "Android",
-      "required": false
+      "required": true
     },
     "ANTI_CALL": {
       "description": "Anti-call feature: on or off",
@@ -110,11 +110,6 @@
     "AUTO_BIO": {
       "description": "Auto-bio feature: on or off",
       "value": "off",
-      "required": false
-    },
-    "AUTO_BIO_MSG": {
-      "description": "Auto-bio message text",
-      "value": "🐬",
       "required": false
     },
     "AUTO_STATUS_VIEW": {
